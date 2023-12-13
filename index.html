@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Test</title>
+        <link rel="stylesheet" href="header.css">
+        <style>
+            .content {
+                flex-direction: row;
+                display: flex;
+            }
+            .content > div {
+                display: flex;
+                flex: 1;
+                align-content: center;
+                justify-content: center;
+            }
+            .table_person {
+                border: 10px ridge black;
+            }
+            footer > p {
+                text-align: end;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png"
+                class="logo" width="40" height="40">
+
+                <div class="home">Home</div>
+                <div class="search">Search</div>
+                <div class="logout">Logout</div>
+            </nav>
+
+            <h1>Form Belajar</h1>
+            <p>Ini adalah Website Latihan pertama</p>
+        </header>
+
+        <main class="content">
+            <div>
+                <h2>ini Form</h2>
+            </div>
+
+            <div>
+                <h2>ini Table</h2>
+                <table class="table_person">
+                    <tr>
+                        <th>Name</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                        <th>Hapus</th>
+                    </tr>
+                    <tr>
+                        <td>Test 1</td>
+                        <td>12 Desember 2000</td>
+                        <td>Pria</td>
+                        <td>Belajar buat Website</td>
+                        <td><a href="#">Klik Disini </a></td>
+                        <td>Gambar</td>
+                    </tr>
+                </table>
+            </div>
+
+        </main>
+        <footer>
+            <p>Revou 2023</p>
+        </footer>
+    </body>
+</html>
